@@ -8,6 +8,8 @@ wheels/
 
 # Virtual environments
 .venv
+src/
+uv.lock
 
 # Support de Cours
 cours/
