@@ -1,0 +1,25 @@
+[project]
+name = "deeplearning-rnn-moons"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "ipykernel>=7.4.0",
+    "keras-tuner>=1.4.8",
+    "matplotlib>=3.11.2",
+    "nltk>=3.10.3",
+    "numpy>=2.5.4",
+    "pandas>=3.0.6",
+    "scikit-learn>=1.9.1",
+    "scipy>=1.18.1",
+    "spacy>=3.8.16",
+    "tensorflow[and-cuda]>=2.21.0",
+]
+
+[project.scripts]
+deeplearning-rnn-moons = "deeplearning_rnn_moons:main"
+
+[build-system]
+requires = ["uv_build>=0.12.15,<0.13.0"]
+build-backend = "uv_build"
