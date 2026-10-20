@@ -5,6 +5,7 @@ build/
 dist/
 wheels/
 *.egg-info
+kt_tp6/
 
 # Virtual environments
 .venv
